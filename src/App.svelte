@@ -11,7 +11,7 @@
 
 	// grab data
 	async function getData() {
-		let data = await csv("/data/colornames.csv");
+		let data = await csv("data/colornames.csv");
 		const fakeData = [
 			{
 				"name": "seafoam greeen",
